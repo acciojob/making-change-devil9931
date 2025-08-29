@@ -1,5 +1,5 @@
 const makeChange = (c) => {
-  c = Number(c); // convert input to number
+  c = Number(c); 
   let change = { q: 0, d: 0, n: 0, p: 0 };
 
   // quarters
